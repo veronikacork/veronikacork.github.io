@@ -1,0 +1,31 @@
+body {
+  width: 550px;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  background-color: #EDC9FF;
+
+}
+
+h1 {
+  border-bottom: 2px solid black;
+}
+
+#board div {
+  float: left;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border: solid 3px #6C5C74;
+  display: inline-block;
+  margin: 3px;
+  font-size: 3em;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+}
+
+#board div:nth-child(3n+1) {
+  clear: both;
+}
